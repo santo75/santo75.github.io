@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+body {
+  background: linear-gradient(
+    to bottom,
+    #333333 0%,
+    #333333 350px,
+    #ededed 350px,
+    #eeddee 100%
+  );
+}
+.hrefWithoutDecoration {
+  text-decoration: none;
+}
+.full-width {
+  width: 100%;
+}

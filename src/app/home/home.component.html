@@ -1,0 +1,12 @@
+<div *ngFor="let content of homeContent">
+  <app-content
+    [header]="content.header"
+    [headerLink]="content.headerLink"
+    [img]="content.img"
+    [imgLink]="content.imgLink"
+    [lastUpdated]="content.lastUpdated"
+    [content]="content.content"
+    [button]="content.button"
+    [buttonOnClick]="content.buttonOnClick"
+  ></app-content>
+</div>

@@ -1,0 +1,25 @@
+<div class="shadow bg-light mt-5">
+  <a href="{{ imgLink }}" *ngIf="imgLink">
+    <img src="{{ img }}" width="100%" height="500px" />
+  </a>
+  <img src="{{ img }}" width="100%" *ngIf="!imgLink" />
+  <div class="pt-3 pt-5 pb-3 px-5">
+    <a class="colorBlack" href="{{ headerLink }}" *ngIf="headerLink">
+      <h2 [innerHTML]="header">
+        <i class="fa fa-external-link" style="font-size: 12px"></i>
+      </h2>
+    </a>
+    <p [innerHtml]="'Last updated: ' + lastUpdated"></p>
+    <p [innerHtml]="content"></p>
+    <p>
+      <button
+        (onclick)="evaluate()"
+        *ngIf="button"
+        type="button"
+        class="btn btn-ligh btn-outline-dark"
+      >
+        {{ button }}
+      </button>
+    </p>
+  </div>
+</div>
