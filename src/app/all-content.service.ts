@@ -48,7 +48,7 @@ export class AllContentService {
     },
   ];
 
-  home = [0, 1];
+  home = [1, 0];
 
   constructor() {}
 
