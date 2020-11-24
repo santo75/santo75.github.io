@@ -32,9 +32,9 @@ export class AllContentService {
     },
     {
       header: 'Line Follower Bot Using Arduino',
-      headerLink: '/home',
+      headerLink: 'none',
       img: 'assets/images/lineFollower.jpeg',
-      imgLink: '/home',
+      imgLink: '',
       lastUpdated: '10th November 2019',
       content: `
           We had to make a line follower bot using arduino which follows specified path.
