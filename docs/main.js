@@ -252,13 +252,13 @@ class AllContentService {
             },
             {
                 header: 'Line Follower Bot Using Arduino',
-                headerLink: '/home',
+                headerLink: 'none',
                 img: 'assets/images/lineFollower.jpeg',
-                imgLink: '/home',
+                imgLink: '',
                 lastUpdated: '10th November 2019',
                 content: `
           We had to make a line follower bot using arduino which follows specified path.
-          It was quit exciting to work on this project. Because when we came to know about this event, we had only 
+          It was quite exciting to work on this project. Because when we came to know about this event, we had only 
           one day left to complete it. We were a team of 3 people. In a single day we learned about Arduino and about other
           tools that was required for this project. Since, we were familliar with c programming language it helped a lot
           in to programming Arduino. <strong>And finally, we got 2nd prize.<strong /> 
